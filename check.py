@@ -12,18 +12,14 @@ while y == 0:  # make sure y isn't zero              #|   /
 # Don't change the print statements so the tests can pass!
 # YOUR CODE GOES HERE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 if x > 0 and y > 0:
-    print(x)
-    print(y)
+    print(f"{x} {y}")
     print("both positive")
 elif x < 0 and y < 0:
-    print(x)
-    print(y)
+    print(f"{x} {y}")
     print("both negative")
 elif x > 0 and y < 0:
-    print(x)
-    print(y)
+    print(f"{x} {y}")
     print("x is positive and y is negative")
 else:
-    print(x)
-    print(y)
+    print(f"{x} {y}")
     print("y is positive and x is negative")
